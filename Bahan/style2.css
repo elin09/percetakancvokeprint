@@ -1,0 +1,27 @@
+:root {
+  --primary: #7a061f;
+  --bg: #010101;
+}
+
+* {
+  margin: 5cm;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  text-decoration: none;
+}
+
+body {
+  font-family: 'Times New Roman', sans-serif;
+  background-color: var(--bg);
+  color: white;
+}
+
+.contact {
+  color: var(--primary);
+  padding: 3cm 7% 1.4rem;
+  text-align: center;
+  font-size: 15px;
+  margin-bottom: 3rem;
+}
